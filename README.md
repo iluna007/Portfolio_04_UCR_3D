@@ -11,34 +11,21 @@ ESLint: Linting tool for maintaining code quality.
 Installation and Deployment
 Prerequisites
 Node.js and npm must be installed on your machine.
+
+
 Steps to Deploy
-Clone the repository:
-
-bash
-Copiar código
+1. Clone the repository:
 git clone https://github.com/iluna007/Portfolio_04_UCR_3D.git
-Navigate into the project directory:
-
-bash
-Copiar código
+2. Navigate into the project directory:
 cd Portfolio_04_UCR_3D
-Install dependencies:
-
-bash
-Copiar código
+3. Install dependencies:
 npm install
-Start the development server:
-
-bash
-Copiar código
+4. Start the development server:
 npm run dev
-Access the project at http://localhost:3000.
-
-To build the project for production:
-
-bash
-Copiar código
+5. To build the project for production:
 npm run build
+
+
 License
 This project is open-source under the MIT License.
 
