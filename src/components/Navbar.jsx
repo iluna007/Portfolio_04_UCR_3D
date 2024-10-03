@@ -55,34 +55,46 @@ const Navbar = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="/flujo_cc">
+                    <Link className=" dropdown-item nav-item" to="/flujo_cc">
                       Cloud Compare
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/flujo_rr">
-                      RH + LANDS + GH
-                    </a>
+                    <Link className=" dropdown-item nav-item" to="/flujo_rr">
+                      RH + LANDS
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/flujo_imprimir3d">
-                      Impresión 3D
-                    </a>
+                    <Link
+                      className=" dropdown-item nav-item"
+                      to="/flujo_imprimir3d"
+                    >
+                      RH + Impresión 3D
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/flujo_web_leaflet">
+                    <Link
+                      className=" dropdown-item nav-item"
+                      to="/flujo_web_leaflet"
+                    >
                       Web + Leaflet
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/flujo_web_ellipsis">
+                    <Link
+                      className=" dropdown-item nav-item"
+                      to="/flujo_web_ellipsis"
+                    >
                       Web + Ellipsis
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/flujo_web_speckle">
+                    <Link
+                      className=" dropdown-item nav-item"
+                      to="/flujo_web_speckle"
+                    >
                       Web + Speckle
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -127,11 +139,6 @@ const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/model">
                 Modelo 3D
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/proceso">
-                Flujos de Trabajo
               </Link>
             </li>
           </ul>
